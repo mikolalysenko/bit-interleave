@@ -50,7 +50,6 @@ function generateInterleave(n) {
   }
   code.push("return " + ret.join("+"))
   
-  console.log(code.join("\n"))
   args.push(code.join("\n"))
   return Function.apply(undefined, args)
 }
@@ -70,7 +69,7 @@ function genModuleExports(table) {
   ncode.push("default: return 0 }")
   code.push(["return function interleaven(", nargs.join(","), "){", ncode.join("\n"), "}"].join(""))
   args.push(code.join("\n"))
-  console.log(args[33])
+
   var proc = Function.apply(undefined, args)
   return proc.apply(undefined, table)
 }
