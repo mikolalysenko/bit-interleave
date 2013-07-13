@@ -1,0 +1,38 @@
+{
+  "name": "bit-interleave",
+  "version": "0.0.0",
+  "description": "Interleaves bits",
+  "main": "interleave.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bit-twiddle": "~0.0.2"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bit-interleave.git"
+  },
+  "keywords": [
+    "bit",
+    "interleave",
+    "z-order",
+    "octree",
+    "quadtree",
+    "range",
+    "mingle"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "335b665addd15946f89673df96efcd87ddaa8d11",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/bit-interleave/issues"
+  }
+}
