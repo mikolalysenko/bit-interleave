@@ -1,6 +1,6 @@
 {
   "name": "bit-interleave",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Interleaves bits",
   "main": "interleave.js",
   "directories": {
@@ -10,10 +10,10 @@
     "bit-twiddle": "~0.0.2"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
